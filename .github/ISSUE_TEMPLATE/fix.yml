@@ -1,0 +1,24 @@
+name: Bug Fix
+description: Fix an API or UI bug from a previous feature
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Bug Description
+      description: What is broken?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen instead?
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can this bug be reproduced?
