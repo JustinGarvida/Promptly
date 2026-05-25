@@ -1,0 +1,24 @@
+name: Feature
+description: Add, adjust, or remove a feature from the API or UI
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the feature change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this needed?
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Proposed Implementation
+      description: How should this be implemented?

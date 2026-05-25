@@ -1,0 +1,12 @@
+name: Documentation
+description: Changes that exclusively affect documentation
+title: "docs: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: docs-change
+    attributes:
+      label: Documentation Change
+      description: What documentation should be added or updated?
+    validations:
+      required: true

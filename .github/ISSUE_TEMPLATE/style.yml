@@ -1,0 +1,12 @@
+name: Style
+description: Code style changes that do not affect behavior
+title: "style: "
+labels: ["style"]
+body:
+  - type: textarea
+    id: style-change
+    attributes:
+      label: Style Change
+      description: Describe the formatting or style cleanup.
+    validations:
+      required: true

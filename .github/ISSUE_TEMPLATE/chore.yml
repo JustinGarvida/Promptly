@@ -1,0 +1,12 @@
+name: Chore
+description: Maintenance tasks such as initial commit or modifying .gitignore
+title: "chore: "
+labels: ["maintenance"]
+body:
+  - type: textarea
+    id: chore
+    attributes:
+      label: Chore Description
+      description: What maintenance task needs to be done?
+    validations:
+      required: true

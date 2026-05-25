@@ -1,0 +1,18 @@
+name: Build
+description: Changes to build tools, dependencies, project version, or packaging
+title: "build: "
+labels: ["build"]
+body:
+  - type: textarea
+    id: build-change
+    attributes:
+      label: Build Change
+      description: What build-related component is changing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: How does this affect builds, dependencies, or releases?

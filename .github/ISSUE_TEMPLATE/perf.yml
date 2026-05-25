@@ -1,0 +1,18 @@
+name: Performance
+description: Improve performance without changing behavior
+title: "perf: "
+labels: ["performance"]
+body:
+  - type: textarea
+    id: bottleneck
+    attributes:
+      label: Performance Issue
+      description: What is slow or inefficient?
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Proposed Improvement
+      description: How should performance be improved?
