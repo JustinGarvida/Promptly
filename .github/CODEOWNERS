@@ -1,0 +1,16 @@
+# =========================================================
+# CODEOWNERS
+# =========================================================
+# Owner:
+#   @justingarvida (Repository Owner / Primary Reviewer)
+#
+# Future Developer Roles:
+#   @frontend-dev     -> Frontend Developer
+#   @backend-dev      -> Backend Developer
+#   @infra-dev        -> Infrastructure / DevOps
+#   @docs-dev         -> Documentation
+#
+# Add future ownership rules below as the team grows.
+# =========================================================
+
+* @justingarvida
